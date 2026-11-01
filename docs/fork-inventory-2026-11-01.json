@@ -1,0 +1,288 @@
+{
+  "task": "prowlarr#2.1",
+  "observedAt": "2026-11-01T04:42:42.557333+00:00",
+  "scope": "Pre-reset inventory. No branch reset, runtime change, deployment, or verified fork baseline.",
+  "upstreamRepository": "Prowlarr/Prowlarr",
+  "maintainedRepository": "osamaalassiry/Prowlarr",
+  "maintainedRef": "maintained",
+  "contributionRef": "develop",
+  "githubDefaultBranch": "maintained",
+  "oldMaintainedRevision": "874e38b99e61c8c2da8f6e7c3d5128e002cc8b31",
+  "upstreamDevelopRevision": "3326e2d4aa978f35fa7e44f66758ebfc8f553d67",
+  "customBehaviorCommits": [],
+  "archiveRefsCreated": [],
+  "archiveDecision": "No pre-existing personal delta; no archive artifact required. The inherited api-docs branch remains untouched. This inventory commit is new task evidence and must be retained by prowlarr#2.2 before any reset.",
+  "remoteHeads": [
+    {
+      "ref": "refs/heads/api-docs",
+      "revision": "87d8c22004c5c04bc782e40874e985e7e1793d7a",
+      "upstreamRef": "refs/heads/api-docs",
+      "upstreamRevision": "dcf64e5a9863f4812c559162c1039cafed722cd1",
+      "behind": 22,
+      "ahead": 1,
+      "classification": "historical upstream-generated API docs; commit predates fork creation"
+    },
+    {
+      "ref": "refs/heads/cardigann-8",
+      "revision": "0c45eb68fa860faa415ea62514be0739b078e573",
+      "upstreamRef": "refs/heads/cardigann-8",
+      "upstreamRevision": "0c45eb68fa860faa415ea62514be0739b078e573",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/changelog-post-script",
+      "revision": "2eb8f0740fe5f304eaf3c4d5bbfb4cb182030a47",
+      "upstreamRef": "refs/heads/changelog-post-script",
+      "upstreamRevision": "2eb8f0740fe5f304eaf3c4d5bbfb4cb182030a47",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/cookie-persist",
+      "revision": "e43c650d45c4695da53b64030069a8b0b1c862db",
+      "upstreamRef": "refs/heads/cookie-persist",
+      "upstreamRevision": "e43c650d45c4695da53b64030069a8b0b1c862db",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/def-rework",
+      "revision": "77f98c832a03035a79d1c973a589fc4beed40a06",
+      "upstreamRef": "refs/heads/def-rework",
+      "upstreamRevision": "77f98c832a03035a79d1c973a589fc4beed40a06",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/dependabot/devcontainers/ghcr.io/devcontainers/features/node-2.1.0",
+      "revision": "739bff6d2e94dd1f6d53130fee15903235c50414",
+      "upstreamRef": "refs/heads/dependabot/devcontainers/ghcr.io/devcontainers/features/node-2.1.0",
+      "upstreamRevision": "739bff6d2e94dd1f6d53130fee15903235c50414",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/develop",
+      "revision": "874e38b99e61c8c2da8f6e7c3d5128e002cc8b31",
+      "upstreamRef": "refs/heads/develop",
+      "upstreamRevision": "3326e2d4aa978f35fa7e44f66758ebfc8f553d67",
+      "behind": 21,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/fix-orpheus",
+      "revision": "0e05d86a58b78ff0823a0bc0b643f8615ded0108",
+      "upstreamRef": "refs/heads/fix-orpheus",
+      "upstreamRevision": "0e05d86a58b78ff0823a0bc0b643f8615ded0108",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/http2",
+      "revision": "fa304dcaca20f9e44a994fde25ea128d64f34b81",
+      "upstreamRef": "refs/heads/http2",
+      "upstreamRevision": "fa304dcaca20f9e44a994fde25ea128d64f34b81",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/instance-name-ordering",
+      "revision": "0be2aee9c37f1c6de3fad930142dada77bc71426",
+      "upstreamRef": "refs/heads/instance-name-ordering",
+      "upstreamRevision": "0be2aee9c37f1c6de3fad930142dada77bc71426",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/jackettmigration",
+      "revision": "0150988bcd0f4c17b46adcb89d5a295618b7d63d",
+      "upstreamRef": "refs/heads/jackettmigration",
+      "upstreamRevision": "0150988bcd0f4c17b46adcb89d5a295618b7d63d",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/maintained",
+      "revision": "874e38b99e61c8c2da8f6e7c3d5128e002cc8b31",
+      "upstreamRef": "refs/heads/develop",
+      "upstreamRevision": "3326e2d4aa978f35fa7e44f66758ebfc8f553d67",
+      "behind": 21,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/master",
+      "revision": "12c327808314a7cae1b7301935ee10cabc19609f",
+      "upstreamRef": "refs/heads/master",
+      "upstreamRevision": "0dc20d8495bad9951c3fafe53f32b6e1c70fcf3b",
+      "behind": 15,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/paging",
+      "revision": "3ca6f83a4d143a785488e9e9ca5fad0da9bc2e5a",
+      "upstreamRef": "refs/heads/paging",
+      "upstreamRevision": "3ca6f83a4d143a785488e9e9ca5fad0da9bc2e5a",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/rate-limit-download-auth",
+      "revision": "8656d2784b231bdb15eedf876eb1524781079c71",
+      "upstreamRef": "refs/heads/rate-limit-download-auth",
+      "upstreamRevision": "8656d2784b231bdb15eedf876eb1524781079c71",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/ratelimit-improvements",
+      "revision": "5e1505432924a867f97947ed7ec8a61dbed391a6",
+      "upstreamRef": "refs/heads/ratelimit-improvements",
+      "upstreamRevision": "5e1505432924a867f97947ed7ec8a61dbed391a6",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/sql-fallback",
+      "revision": "ab4d80faa65f78ca619ac9c9a806793603fb3b3a",
+      "upstreamRef": "refs/heads/sql-fallback",
+      "upstreamRevision": "ab4d80faa65f78ca619ac9c9a806793603fb3b3a",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/su-to-life",
+      "revision": "1318ff0cb459008752606c9da87e1b84bc95f5f5",
+      "upstreamRef": "refs/heads/su-to-life",
+      "upstreamRevision": "1318ff0cb459008752606c9da87e1b84bc95f5f5",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/sync-updates202510",
+      "revision": "20b82146acc8fbe31f6f27165f4662dfa5d2c32b",
+      "upstreamRef": "refs/heads/sync-updates202510",
+      "upstreamRevision": "20b82146acc8fbe31f6f27165f4662dfa5d2c32b",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    },
+    {
+      "ref": "refs/heads/test-db-fix",
+      "revision": "5d1f79f3a3bd337f508a05d4307f87852278a433",
+      "upstreamRef": "refs/heads/test-db-fix",
+      "upstreamRevision": "5d1f79f3a3bd337f508a05d4307f87852278a433",
+      "behind": 0,
+      "ahead": 0,
+      "classification": "upstream history; no personal commits"
+    }
+  ],
+  "tags": {
+    "comparison": "Every origin and local tag ref matches the same upstream tag ref and object ID.",
+    "originRefCount": 193,
+    "upstreamRefCount": 195,
+    "localRefCount": 195,
+    "originRefsSha256": "333f50b413e26e0593d78d5f5f0388ce414e62a44c820d7136ad2b32556a0a7e",
+    "upstreamRefsSha256": "d30990843685d52f948670c7ee783b2e0d604a2a74db1d677b3b3d7c728da16a",
+    "digestFormat": "SHA256 of lines sorted by ref: OBJECT_ID<TAB>REF<LF>."
+  },
+  "apiDocsProvenance": {
+    "revision": "87d8c22004c5c04bc782e40874e985e7e1793d7a",
+    "author": "Servarr",
+    "commitDate": "2026-10-21T16:46:22Z",
+    "forkCreatedAt": "2026-10-22T07:11:28Z",
+    "source": "https://api.github.com/repos/Prowlarr/Prowlarr/commits/87d8c22004c5c04bc782e40874e985e7e1793d7a",
+    "message": "Automated API Docs update",
+    "classification": "Inherited upstream-generated commit on an unrelated retained branch, not personal behavior."
+  },
+  "retainedWork": {
+    "hostsChecked": [
+      "air",
+      "forge",
+      "mbp"
+    ],
+    "primaryRevision": "874e38b99e61c8c2da8f6e7c3d5128e002cc8b31",
+    "primaryDirtyFiles": 0,
+    "preExistingLocalBranches": [
+      "maintained"
+    ],
+    "preExistingStashes": 0,
+    "unreachableObjectsReported": 0,
+    "preExistingReflogRevisions": [
+      "874e38b99e61c8c2da8f6e7c3d5128e002cc8b31"
+    ],
+    "airWorktrees": [
+      "primary maintained checkout",
+      "current detached launch scratch checkout",
+      "current task/prowlarr-2-1 worktree"
+    ],
+    "forgeWorktrees": [
+      "primary maintained checkout"
+    ],
+    "mbpWorktrees": [
+      "primary maintained checkout"
+    ],
+    "openFiles": "No independent primary-checkout users observed with lsof; current task shell/git processes only. Host-user visibility only.",
+    "foremanDiscovery": "Only current task claim/assignment; no other reservations, campaign sources, recovery registrations, or conflicts.",
+    "forkMetadata": "No carried changes, syncs, or verified baseline.",
+    "githubIssues": "No open or closed fork issues returned."
+  },
+  "consumers": {
+    "source": "Estate app/prowlarr and live read-only Docker inspect on forge",
+    "image": "linuxserver/prowlarr:latest",
+    "imageId": "sha256:04be30163fbaf48d6aeee7b5893c9f6614ffbad6d853971df0d6dcdf01c7f104",
+    "state": "running",
+    "startedAt": "2026-10-28T01:07:35.461489237Z",
+    "mountClassification": [
+      "runtime config",
+      "media data"
+    ],
+    "sourceCheckoutMounted": false,
+    "watchtowerState": "running",
+    "runtimeModified": false,
+    "operationalOwner": "Estate app/prowlarr; existing service ownership retained"
+  },
+  "replacementDiscovery": {
+    "project": "mediamanager",
+    "existingRelatedTasks": [
+      "mediamanager#261",
+      "mediamanager#525",
+      "mediamanager#554",
+      "mediamanager#620.2"
+    ],
+    "newTasks": [],
+    "reason": "No personal code behavior or fork issue requires replacement. Existing MM acquisition, indexer-health and search work remains owned there."
+  },
+  "restore": {
+    "oldRevision": "874e38b99e61c8c2da8f6e7c3d5128e002cc8b31",
+    "retainedRemoteRef": "refs/heads/develop",
+    "retainedRepository": "osamaalassiry/Prowlarr",
+    "ancestry": "Old maintained is an ancestor of the recorded upstream develop revision.",
+    "readbackCommand": "git ls-remote git@github.com:osamaalassiry/Prowlarr.git refs/heads/develop refs/heads/maintained",
+    "inspectionCommand": "git show 874e38b99e61c8c2da8f6e7c3d5128e002cc8b31",
+    "constraints": [
+      "Recheck exact remote refs and liveness immediately before reset under prowlarr#2.2.",
+      "Preserve this accepted inventory commit in Foreman evidence and a remotely readable recovery ref before resetting it away.",
+      "Only maintained is the documented reset target; it is also the current GitHub default branch. Do not change default-branch metadata, contribution develop, or unrelated refs.",
+      "Retain temporary inventory-upstream tracking refs until the reset task finishes; prowlarr#2.2 owns optional cleanup after consumers switch.",
+      "No runtime verification claim follows from this source inventory."
+    ]
+  }
+}
